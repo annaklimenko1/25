@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #76b36d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #1ff8ff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.personal-offers {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.personal-offers ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.personal-offers li {
+    margin-bottom: 20px;
+}
+
+.personal-offers button {
+    background-color: #76b36d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.personal-offers button:hover {
+    background-color: #444;
+}
+
+.settings {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.settings form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings label {
+    margin-bottom: 10px;
+}
+
+.settings input[type="text"], .settings input[type="password"], .settings input[type="email"], .settings input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.settings input[type="submit"] {
+    background-color: #76b36d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.settings input[type="submit"]:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #76b36d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
